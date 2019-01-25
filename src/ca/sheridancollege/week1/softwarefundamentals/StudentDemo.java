@@ -11,6 +11,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
  */
 public class StudentDemo 
 {
+  int x = 5;
   private String studentID;
   private String name;
   
@@ -39,6 +40,7 @@ public class StudentDemo
    */
   public String getStudentID()
   {
+      int y = x + 4;
       return studentID;
   }
 
